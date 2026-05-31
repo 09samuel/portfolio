@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card"
 import { Globe } from "lucide-react"
 import { TbBrandGithub } from "react-icons/tb"
-import type { Project } from "../data/projects";
+import type { Project } from "../../data/projects";
 
 interface ProjectCardProps {
   project: Project;
@@ -47,7 +47,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <CardHeader className=" pb-3 shrink-0">
-        <CardTitle className="font-heading text-2xl tracking-tighter text-black">
+        <CardTitle className="font-bold text-2xl tracking-tighter text-black">
           {project.title}
         </CardTitle>
         <CardDescription className="text-sm text-black/80 font-medium leading-relaxed mt-2 line-clamp-3">

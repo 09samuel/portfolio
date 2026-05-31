@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700;800;900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -53,6 +54,9 @@
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
 
+  --font-base: "DM Sans", sans-serif;
+  --font-heading: "DM Sans", sans-serif;
+  
   --spacing-boxShadowX: 4px;
   --spacing-boxShadowY: 4px;
   --spacing-reverseBoxShadowX: -4px;
@@ -68,7 +72,15 @@
     @apply text-foreground font-base bg-background;
   }
 
-  h1, h2, h3, h4, h5, h6{
+  h3, h4, h5, h6{
     @apply font-heading;
+  }
+
+  h1 {
+    @apply font-black;
+  }
+
+  h2 {
+    @apply font-extrabold;
   }
 }
