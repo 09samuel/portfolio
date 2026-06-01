@@ -16,7 +16,7 @@ export const certificationsData: Certification[] = [
   },
   {
     id: "azure-ai",
-    name: "Azure AI Fundamentals",
+    name: "Azure Fundamentals",
     issuer: "Microsoft",
     date: "March 2025",
     link: "https://www.credly.com/badges/937f8eb2-249d-48c6-8614-6f32bc459df0/public_url"
