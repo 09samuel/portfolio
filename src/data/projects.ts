@@ -25,7 +25,7 @@ export const projectsData: Project[] = [
             "Integrated with client-managed AWS S3 buckets for secure, tenant-isolated backup storage, enabling on-demand restore and downloads and improving disaster recovery workflows.",
             "Reduced backup storage size by 30%+ and ensured data integrity by implementing compression and checksum-based verification across all database dump artifacts."
         ],
-        techStack: ["React", "TailwindCSS", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "AWS S3", "AWS ECS", "GitHub Actions"],
+        techStack: ["React", "TailwindCSS", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "AWS S3", "AWS ECS", "AWS RDS", "GitHub Actions"],
         imagePath: "/images/databasedump-screenshot.webp", 
         links: [
             { label: "Live Demo", url: "http://databasedump.me/", icon: "website" },

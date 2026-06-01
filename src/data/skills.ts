@@ -11,6 +11,7 @@ export type TechnologyName =
   | "WebSockets"
   | "MongoDB"
   | "PostgreSQL"
+  | "AWS RDS"
   | "AWS S3"
   | "Supabase"
   | "Firebase"
@@ -39,7 +40,7 @@ export const skillsData: SkillCategory[] = [
   },
   {
     category: "Databases & Storage",
-    technologies: ["MongoDB", "PostgreSQL", "AWS S3", "Supabase", "Firebase"]
+    technologies: ["MongoDB", "PostgreSQL", "AWS RDS", "AWS S3", "Supabase", "Firebase"]
   },
   {
     category: "DevOps & Tools",

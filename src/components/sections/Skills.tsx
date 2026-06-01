@@ -43,6 +43,7 @@ const techIcons: TechIconsMap = {
   "WebSockets": TbBrandSocketIo,
   "MongoDB": TbBrandMongodb,
   "PostgreSQL": SiPostgresql,
+  "AWS RDS": FaAws,
   "AWS S3": FaAws,
   "Supabase": TbBrandSupabase,
   "Firebase": TbBrandFirebase,
