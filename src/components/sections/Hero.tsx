@@ -22,7 +22,7 @@ export default function HeroSection() {
             className="font-heading text-5xl sm:text-6xl tracking-tighter text-black"
             aria-label="Samuel Menino Fernandes"
           >
-            <span className="block">Samuel Menino</span>
+            <span className="block">Samuel Menino </span>
             <span className="block">Fernandes</span>
           </h1>
 
