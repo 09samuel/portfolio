@@ -1,7 +1,7 @@
 export interface ProjectLink {
     label: string;
     url: string;
-    icon: "website" | "github";
+    icon: "website" | "github" | "video";
 }
 
 export interface Project {
@@ -46,7 +46,8 @@ export const projectsData: Project[] = [
         imagePath: "/images/codekeeper-screenshot.webp", 
         links: [
             { label: "Live Demo", url: "https://codekeeper-nu.vercel.app/", icon: "website" },
-            { label: "Source Code", url: "https://github.com/09samuel/codekeeper", icon: "github" }
+            { label: "Source Code", url: "https://github.com/09samuel/codekeeper", icon: "github" },
+            { label: "Demo Video", url: "https://drive.google.com/file/d/1Um7e37ChdT5ik6MXhxdgSgnfcvnw2ppE/view?usp=sharing", icon: "video" }
         ]
     },
     {
@@ -62,7 +63,8 @@ export const projectsData: Project[] = [
         techStack: [ "React", "Electron", "Flask", "Express.js", "MongoDB", "Python", "Transformers"],
         imagePath: "/images/livescribe-screenshot.webp",
         links: [
-            { label: "Source Code", url: "https://github.com/09samuel/live-scribe", icon: "github" }
+            { label: "Source Code", url: "https://github.com/09samuel/live-scribe", icon: "github" },
+            { label: "Demo Video", url: "https://drive.google.com/file/d/1T6mwD9k7a0aI6vBk7nnkWj1r6lCPqXel/view?usp=sharing", icon: "video" }
         ]
     },
     {

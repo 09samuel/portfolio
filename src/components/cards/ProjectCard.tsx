@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Globe } from "lucide-react"
+import { Globe, Video } from "lucide-react"
 import { TbBrandGithub } from "react-icons/tb"
 import type { Project } from "../../data/projects";
 
@@ -38,6 +38,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             >
               {link.icon === 'website' ? (
                 <Globe size={18} strokeWidth={2.5} className="text-black" />
+              ) : link.icon === 'video' ? (
+                <Video size={18} strokeWidth={2.5} className="text-black" />
               ) : (
                 <TbBrandGithub size={20} className="text-black" />
               )} 
