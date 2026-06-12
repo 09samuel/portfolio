@@ -19,6 +19,7 @@ import {
   TbBrandGithub,
   TbBrandDocker,
   TbKey,
+  TbStack2,
   TbActivity,
 } from "react-icons/tb"
 import { SiPostgresql } from "react-icons/si"
@@ -53,7 +54,8 @@ const techIcons: TechIconsMap = {
   "Docker": TbBrandDocker,
   "AWS EC2": FaAws,
   "AWS ECS": FaAws,
-  "JWT Auth": TbKey,
+  "JWT Authentication": TbKey,
+  "Message Queues": TbStack2,
   "Real-time Systems": TbActivity,
 }
 

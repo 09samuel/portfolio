@@ -21,7 +21,8 @@ export type TechnologyName =
   | "Docker"
   | "AWS EC2"
   | "AWS ECS"
-  | "JWT Auth"
+  | "JWT Authentication"
+  | "Message Queues"
   | "Real-time Systems";
 
 export interface SkillCategory {
@@ -48,6 +49,6 @@ export const skillsData: SkillCategory[] = [
   },
   {
     category: "Other",
-    technologies: ["JWT Auth", "Real-time Systems"]
+    technologies: ["JWT Authentication", "Message Queues", "Real-time Systems"]
   }
 ];
