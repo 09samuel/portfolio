@@ -5,7 +5,7 @@ export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const getLinkStyles = (_sectionId?: string) => {
-        return `block md:inline-block px-4 py-2 font-base transition-all bg-transparent border-transparent hover:border-black text-left w-full md:w-auto`
+        return `block md:inline-block px-4 py-2 font-bold transition-all bg-transparent border-transparent hover:border-black text-left w-full md:w-auto`
     }
 
     return (
