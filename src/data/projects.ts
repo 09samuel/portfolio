@@ -29,7 +29,8 @@ export const projectsData: Project[] = [
         imagePath: "/images/databasedump-screenshot.webp", 
         links: [
             { label: "Live Demo", url: "http://databasedump.me/", icon: "website" },
-            { label: "Source Code", url: "https://github.com/09samuel/DatabaseDump", icon: "github" }
+            { label: "Source Code", url: "https://github.com/09samuel/DatabaseDump", icon: "github" },
+            { label: "Demo Video", url: "https://drive.google.com/file/d/1cZJMPJoZDvdmY2v5VjJGCSDOlcwNP_tD/view?usp=sharing", icon: "video" }
         ]
     },
     {
